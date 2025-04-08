@@ -1,28 +1,19 @@
-# Project Title
-League of Legend
+# League of Legend
 
-## Overview
-Briefly describe what the project does and its purpose. Include any unique features or problems it solves.
+## But du projet
 
-## Features
-- Feature 1: Describe the feature and its benefit.
-- Feature 2: Highlight another feature and why it's useful.
-- Feature 3: If applicable, describe another key aspect of the project.
+Prédire les chances de victoire avant le lancement de la partie afin de savoir s'il vaut mieux "dodge"(esquiver) la partie au lieu de la jouer.
+Réaliser un algorithme qui permettra de prédire les chances de victoire avec pour seules informations la composition des deux équipes.
+Bonus: Plusieurs facteurs complémentaires intéressant mais complexe comme les contres, les synergies et les meilleurs "ban"(champion banni)
 
-## Installation
-Provide step-by-step instructions on how to get a development environment running.
-
-```bash
-git clone https://github.com/username/projectname.git
-cd projectname
-pip install -r requirements.txt
 
 ## Dataset 
+
 Proviennent du site principal op.gg : "https://www.op.gg"
 Voici le lien des datasets : https://drive.google.com/drive/folders/1Y5bTnNGTyBFWbEuXdc0BFq9fFeXZresH?usp=share_link
 
 
-#Présentation du jeu
+## Présentation du jeu
 
 League of Legends est un jeu multijoueur dans lequel deux équipes de 5 joueurs s'affrontent.
 La vue de la partie sera aérienne et la carte peut être considérée comme symétrique.
@@ -40,14 +31,8 @@ La sélection des champions se fait en amont: on peut savoir les différents cha
 Dans le mode classé solo(qui sera le mode choisi), on ne peut pas prendre un personnage déjà pris et il y a 5 champions bannis par équipes.
 
 
-#But du projet
+## Sélection des datasets
 
-Prédire les chances de victoire avant le lancement de la partie afin de savoir s'il vaut mieux "dodge"(esquiver) la partie au lieu de la jouer.
-Réaliser un algorithme qui permettra de prédire les chances de victoire avec pour seules informations la composition des deux équipes.
-Bonus: Plusieurs facteurs complémentaires intéressant mais complexe comme les contres, les synergies et les meilleurs "ban"(champion banni)
-
-
-#Sélection des datasets
 Tous les datasets proviennent du site op.gg.
 1er dataset: chiffres clés sur chaque personnage(taux de victoire,"pick" rate, ban rate).
 2e dataset: scrapping de milliers de parties avec la composition des deux équipes et quelle équipe a gagné.
